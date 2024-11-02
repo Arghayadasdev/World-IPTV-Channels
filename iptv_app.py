@@ -8,7 +8,8 @@ st.set_page_config(page_title="World IPTV Channels", layout="wide")
 # Title
 st.title("🎬 World IPTV Channels")
 
-# Load channels from M3U playlist
+# Load channels from M3U playlist with caching
+@st.cache_data
 def load_channels(url):
     channels = []
     try:
@@ -38,6 +39,10 @@ is_playing = st.sidebar.checkbox("Playing", value=True)
 # Filter channels based on search
 filtered_channels = [ch for ch in channels if search_query.lower() in ch["name"].lower()]
 
+# Limit the number of displayed channels
+max_channels_to_display = 20
+filtered_channels = filtered_channels[:max_channels_to_display]
+
 # Display the selected channel in a player
 if channels:
     if filtered_channels:
@@ -46,7 +51,10 @@ if channels:
 
         selected_channel = st.session_state.selected_channel
         st.subheader(f"Now Playing: {selected_channel['name']}")
-        st_player(selected_channel['url'], playing=is_playing, volume=volume / 100.0)
+        
+        # Loading spinner for the player
+        with st.spinner("Loading video..."):
+            st_player(selected_channel['url'], playing=is_playing, volume=volume / 100.0)
 
         # Display the channel list with unique keys for each button
         st.markdown("### Available Channels")
