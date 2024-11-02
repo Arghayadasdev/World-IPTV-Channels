@@ -39,9 +39,9 @@ is_playing = st.sidebar.checkbox("Playing", value=True)
 # Filter channels based on search
 filtered_channels = [ch for ch in channels if search_query.lower() in ch["name"].lower()]
 
-# Limit the number of displayed channels
-max_channels_to_display = 20
-filtered_channels = filtered_channels[:max_channels_to_display]
+# Initialize session state for visible channels
+if 'visible_count' not in st.session_state:
+    st.session_state.visible_count = 10  # Start by showing 10 channels
 
 # Display the selected channel in a player
 if channels:
@@ -58,9 +58,17 @@ if channels:
 
         # Display the channel list with unique keys for each button
         st.markdown("### Available Channels")
-        for i, channel in enumerate(filtered_channels):
+        for i, channel in enumerate(filtered_channels[:st.session_state.visible_count]):
             if st.button(channel['name'], key=f"channel_{i}"):
                 st.session_state.selected_channel = channel  # Update the selected channel
+
+        # Show more button
+        if st.session_state.visible_count < len(filtered_channels):
+            if st.button("Show More"):
+                st.session_state.visible_count += 10  # Increase the count of visible channels
+
+    else:
+        st.warning("No channels match your search.")
 
 else:
     st.warning("No channels available.")
