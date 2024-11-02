@@ -39,19 +39,20 @@ is_playing = st.sidebar.checkbox("Playing", value=True)
 filtered_channels = [ch for ch in channels if search_query.lower() in ch["name"].lower()]
 
 # Display the selected channel in a player
-if filtered_channels:
-    if "selected_channel" not in st.session_state:
-        st.session_state.selected_channel = filtered_channels[0]
+if channels:
+    if filtered_channels:
+        if "selected_channel" not in st.session_state:
+            st.session_state.selected_channel = filtered_channels[0]
 
-    selected_channel = st.session_state.selected_channel
-    st.subheader(f"Now Playing: {selected_channel['name']}")
-    st_player(selected_channel['url'], playing=is_playing, volume=volume / 100.0)
+        selected_channel = st.session_state.selected_channel
+        st.subheader(f"Now Playing: {selected_channel['name']}")
+        st_player(selected_channel['url'], playing=is_playing, volume=volume / 100.0)
 
-    # Display the channel list
-    st.markdown("### Available Channels")
-    for channel in filtered_channels:
-        if st.button(channel['name']):
-            st.session_state.selected_channel = channel  # Update the selected channel
+        # Display the channel list with unique keys for each button
+        st.markdown("### Available Channels")
+        for i, channel in enumerate(filtered_channels):
+            if st.button(channel['name'], key=f"channel_{i}"):
+                st.session_state.selected_channel = channel  # Update the selected channel
 
 else:
     st.warning("No channels available.")
