@@ -1,0 +1,114 @@
+﻿#EXTM3U
+#EXTINF:-1 tvg-name=""tvg-id="9XM.in"tvg-logo="https://i.imgur.com/F17QtN2.png"group-title="Music":http-referrer="",9XM (480p)
+https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="AajTak.in"tvg-logo="https://i.imgur.com/RpIdCB3.png"group-title="News":http-referrer="",Aaj Tak
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="AasthaBhajan.in"tvg-logo="https://i.imgur.com/LyDxqnF.png"group-title="Undefined":http-referrer="Aasthatv.in",Aastha Bhajan (480p)
+#EXTVLCOPT:http-referrer=Aasthatv.in
+https://aasthaott.akamaized.net/110923/smil:bhajan.smil/chunklist_b264000.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="AgamvaniChannel.in"tvg-logo="https://i.imgur.com/dQI1YkX.png"group-title="Undefined":http-referrer="",Agamvani Channel (1080p) [Not 24/7]
+https://ythls.armelin.one/channel/UClOK2dPmq8k8Xwii_4TjRnQ.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="AmarUjala.in"tvg-logo="https://i.imgur.com/ndQ8LZp.png"group-title="News":http-referrer="",Amar Ujala (720p) [Not 24/7]
+https://ythls.armelin.one/channel/UCP_wvXToU5ohFLbTAkatvsw.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="AmritaTV.in"tvg-logo="https://i.imgur.com/WdSjlPl.png"group-title="Entertainment":http-referrer="",Amrita TV (720p)
+https://dr1zhpsuem5f4.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="AnaadiTV.in"tvg-logo="https://i.imgur.com/Ir26BK6.png"group-title="Undefined":http-referrer="",Anaadi TV (720p) [Not 24/7]
+https://ythls.armelin.one/channel/UCK1Sl8bNLay45FeL30BFdxQ.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="ApnaPunjabTV.in"tvg-logo="https://i.imgur.com/IM4D8Wz.png"group-title="Undefined":http-referrer="",Apna Punjab TV (720p)
+https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="AradanaTV.in"tvg-logo="https://i.imgur.com/w48yzLu.png"group-title="Undefined":http-referrer="",Aradana TV (1080p) [Not 24/7]
+https://ythls.armelin.one/channel/UCMnz0yLX3afzFc8y822YO5g.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="SansadTV.in"tvg-logo="https://i.imgur.com/TWSZC2H.png"group-title="Legislative":http-referrer="",Sansad TV (1080p) [Not 24/7]
+https://hls.media.nic.in/hls/live/lstv/lstv.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="SanskarTV.in"tvg-logo="https://i.imgur.com/SDkiMvR.png"group-title="Culture;Religious":http-referrer="",Sanskar TV (1080p)
+https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="SanskarUK.in"tvg-logo="https://i.imgur.com/AU5vSPF.png"group-title="Undefined":http-referrer="",Sanskar UK (1080p)
+https://d34z4embz0hjf6.cloudfront.net/out/v1/7ac2789ff9a544a49337d1ffc54ce61c/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="SanskarUSA.in"tvg-logo="https://i.imgur.com/5WBWruX.png"group-title="Undefined":http-referrer="",Sanskar USA (1080p)
+https://d2netiedy8cz3x.cloudfront.net/out/v1/9bf6fa4ac8d6432cb98da13b121ba3c2/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="SanskarWebTV.in"tvg-logo="https://i.imgur.com/mu2B6hw.png"group-title="Undefined":http-referrer="",Sanskar Web TV (1080p)
+https://deatfcv3xdvi3.cloudfront.net/out/v1/7a43dd2f64e34ec28da1b4bd6923251a/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="SathiyamTV.in"tvg-logo="https://i.imgur.com/x7S8c0s.png"group-title="News":http-referrer="",Sathiyam TV (1080p) [Not 24/7]
+https://ythls.armelin.one/channel/UC2ziCMHFPWkFHjocUMXT__Q.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="SatsangTV.in"tvg-logo="https://i.imgur.com/jnsaMrJ.png"group-title="Undefined":http-referrer="",Satsang TV (1080p)
+https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="SatsangWebTV.in"tvg-logo="https://i.imgur.com/40kNu1w.png"group-title="Undefined":http-referrer="",Satsang Web TV (1080p)
+https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="ShekinahTV.in"tvg-logo="https://i.imgur.com/6hTshsG.png"group-title="Undefined":http-referrer="",Shekinah TV (1080p)
+https://ythls.armelin.one/channel/UCHtYUfPnQci6GoUpPlWfrOg.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="ArgusNews.in"tvg-logo="https://i.imgur.com/cGjRe01.png"group-title="News":http-referrer="",Argus News (1080p)
+https://live.argusnews.in/hls/argustv.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="Bharat24.in"tvg-logo="https://i.imgur.com/Jx1OX9N.png"group-title="News":http-referrer="",Bharat 24 (1080p) [Not 24/7]
+https://ythls.armelin.one/channel/UCCQmi1Bd-_tHRm6M2uPlGUA.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="STVHaryanaNews.in"tvg-logo="https://i.imgur.com/TJRZo9e.png"group-title="News":http-referrer="",STV Haryana News (720p) [Not 24/7]
+https://ythls.armelin.one/channel/UC6Hd69A3RKgu6Dj52H53ZDw.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="BharatSamacharTV.in"tvg-logo="https://i.imgur.com/x5f8E3K.png"group-title="News":http-referrer="",Bharat Samachar TV (360p)
+https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="DesiChannel.in"tvg-logo="https://i.ibb.co/GkNXcLX/logo.png"group-title="Entertainment":http-referrer="",Desi Channel (720p)
+https://live.wmncdn.net/desichannel/7e2dd0aed46b70a5c77f4affdb702e4b.sdp/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="ETNowSwadesh.in"tvg-logo="https://i.imgur.com/AJpMZIv.png"group-title="Undefined":http-referrer="",ET Now Swadesh (720p)
+https://d32gxr3r1ksq2p.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="GoodNewsToday.in"tvg-logo="https://i.imgur.com/iMzUrb9.png"group-title="News":http-referrer="",Good News Today (1080p) [Not 24/7]
+https://ythls.armelin.one/channel/UCQC1wGbOOIoC23fRGxt4kbg.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="PTCChakde.in"tvg-logo="https://i.imgur.com/4lUwdME.png"group-title="Undefined":http-referrer="",PTC Chakde (720p)
+https://streaming.ptcplay.com/ptcchakdeINONE/smil:Live.smil/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="PTCDholTV.in"tvg-logo="https://i.ibb.co/C0y7yFJ/Ptc-Dhol-tv.jpg"group-title="Music":http-referrer="",PTC Dhol (720p)
+https://streaming.ptcplay.com/ptcdholtvINOne/smil:Live.smil/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="PTCMusic.in"tvg-logo="https://i.imgur.com/8PHk66Q.png"group-title="Music":http-referrer="",PTC Music (720p)
+https://streaming.ptcplay.com/ptcMusicINOne/smil:Live.smil/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="PTCNews.in"tvg-logo="https://i.imgur.com/8BHV6Gr.png"group-title="News":http-referrer="",PTC News (1080p) [Not 24/7]
+https://ythls.armelin.one/channel/UCQLEbraENUGWh6p1Rv664rQ.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="PTCPunjabi.in"tvg-logo="https://i.imgur.com/nbUMvaR.png"group-title="Undefined":http-referrer="",PTC Punjabi (720p)
+https://streaming.ptcplay.com/ptcPunjabiINOne/smil:Live.smil/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="PTCPunjabiGold.in"tvg-logo="https://i.imgur.com/g88pV3L.png"group-title="Undefined":http-referrer="",PTC Punjabi Gold (720p)
+https://streaming.ptcplay.com/ptcpunjabiGoldINOne/smil:Live.smil/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id="PTCSimran.in"tvg-logo="https://i.imgur.com/T5VK7G5.png"group-title="Undefined":http-referrer="",PTC Simran (720p)
+https://streaming.ptcplay.com/ptcSimranINOne/smil:Live.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="India TV"tvg-id=""tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/India_TV.png"group-title="News":http-referrer="",India TV
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
+#EXTINF:-1 tvg-name="India TV 720p"tvg-id=""tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/India_TV.png"group-title="News":http-referrer="",India TV 720p
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index_3.m3u8
+#EXTINF:-1 tvg-name="Aaj Tak"tvg-id=""tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png"group-title="News":http-referrer="",Aaj Tak
+https://feeds.intoday.in/aajtak/api/master.m3u8
+#EXTINF:-1 tvg-name="Aaj Tak"tvg-id=""tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png"group-title="News":http-referrer="",Aaj Tak
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/playlist.m3u8
+#EXTINF:-1 tvg-name="Aaj Tak 720p"tvg-id=""tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png"group-title="News":http-referrer="",Aaj Tak 720p
+https://aajtaklive-amd.akamaized.net/hls/live/2014416/aajtak/aajtaklive/live_720p/chunks.m3u8
+#EXTINF:-1 tvg-name="Aaj Tak HD"tvg-id=""tvg-logo="https://akm-img-a-in.tosshub.com/aajtak/resource/img/bemisaal-20-saal/at-hd-191x84.png"group-title="News":http-referrer="",Aaj Tak HD
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+#EXTINF:-1 tvg-name="Aaj Tak HD 720p"tvg-id=""tvg-logo="https://akm-img-a-in.tosshub.com/aajtak/resource/img/bemisaal-20-saal/at-hd-191x84.png"group-title="News":http-referrer="",Aaj Tak HD 720p
+https://aajtakhdlive-amd.akamaized.net/hls/live/2014415/aajtakhd/aajtakhdlive/live_720p/chunks.m3u8
+#EXTINF:-1 tvg-name="NDTV India"tvg-id=""tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_India.png"group-title="News":http-referrer="",NDTV India
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679-b/ndtvindia/master.m3u8
+#EXTINF:-1 tvg-name="NDTV India 480p"tvg-id=""tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/NDTV_India.png"group-title="News":http-referrer="",NDTV India 480p
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679-b/ndtvindia/masterb_480p@2.m3u8
+#EXTINF:-1 tvg-name="ABP News"tvg-id=""tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ABP_News_India.png"group-title="News":http-referrer="",ABP News
+https://abplivetv.akamaized.net/hls/live/2043010/hindi/master.m3u8
+#EXTINF:-1 tvg-name="Nallavan (2010)"tvg-id=""tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yTiMXLd1sJySAVPZlO9O8zcrJEQ.jpg"group-title="Malayalam":http-referrer="",Nallavan (2010)
+http://watchindia.net:8880/movie/65138/11733/1642.mp4
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",FRANCE
+https://stream.sen-gt.com/A2itv/myStream/chunklist_w1124459956.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",A2i TV
+https://stream.sen-gt.com/A2itv/myStream/chunklist_w1124459956.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",A2i Music
+https://stream.sen-gt.com/A2iMusic/myStream/chunklist_w652109108.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",A2i Religion
+https://stream.sen-gt.com/A2iReligion/myStream/chunklist_w672043691.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="FRANCE;MUSIK":http-referrer="",D5TV
+http://live.creacast.com/d5tv/smil:d5tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",Fashion TV
+http://fash1043.cloudycdn.services/slive/_definst_/ftv_paris_adaptive.smil/chunklist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",France 24
+https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",MDL
+http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",MyComedy
+https://live.creacast.com/mycomedy/smil:mycomedy.smil/playlist.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="FRANCE;MUSIK":http-referrer="",Obosso TV
+https://edge4.vedge.infomaniak.com/livecast/ik:obossotv_6/manifest.m3u8?spark=f033d292-cb89-4c69-bcad-4cfb4c160d9d&token=
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",TMA
+http://hls.tmacaraibes.com/live/index.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",TVR
+https://streamtv.cdn.dvmr.fr/TVR/ngrp:tvr.stream_all/master.m3u8
+#EXTINF:-1 tvg-name=""tvg-id=""tvg-logo=""group-title="":http-referrer="",viaMirabelle
+https://live.creacast.com/mirabelletv/smil:mirabelletv.smil/playlist.m3u8
