@@ -9,7 +9,7 @@ st.set_page_config(page_title="World IPTV Channels", layout="wide")
 st.title("🎬 World IPTV Channels")
 
 # URLs for main, live, and subcategory playlists
-MAIN_M3U_URL = "https://iptv-org.github.io/iptv/index.m3u"
+MAIN_M3U_URL = "https://raw.githubusercontent.com/Arghayadasdev/World-IPTV-Channels/refs/heads/main/index.m3u"
 LIVE_M3U_URL = "https://raw.githubusercontent.com/FunctionError/PiratesTv/main/combined_playlist.m3u"
 CATEGORY_M3U_URL = "https://iptv-org.github.io/iptv/index.category.m3u"
 LANGUAGE_M3U_URL = "https://iptv-org.github.io/iptv/index.language.m3u"
