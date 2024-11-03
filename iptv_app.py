@@ -79,7 +79,7 @@ else:
 st.markdown("<div class='title'>🌐 World IPTV Channels</div>", unsafe_allow_html=True)
 
 # URLs for main, live, and additional stream playlists
-MAIN_M3U_URL = "https://raw.githubusercontent.com/Arghayadasdev/World-IPTV-Channels/refs/heads/main/index.m3u"
+MAIN_M3U_URL = "https://raw.githubusercontent.com/Arghayadasdev/World-IPTV-Channels/refs/heads/main/bloginstall-iptv.m3u"
 LIVE_M3U_URL = "https://raw.githubusercontent.com/FunctionError/PiratesTv/main/combined_playlist.m3u"
 STREAM_M3U_URL = "https://raw.githubusercontent.com/imdhiru/bloginstall-iptv/main/bloginstall-bangla.m3u"
 
