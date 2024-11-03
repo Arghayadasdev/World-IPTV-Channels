@@ -15,7 +15,7 @@ st.image(logo_url, width=200)  # Adjust width as necessary
 
 # Initialize theme setting in session state, default to Dark theme
 if 'theme' not in st.session_state:
-    st.session_state.theme = "Dark"  # Default to Dark theme
+    st.session_state.theme = "Light"  # Default to Dark theme
 
 # Sidebar controls
 st.sidebar.title("Controls")
@@ -70,7 +70,7 @@ dark_theme_css = """
 """
 
 # Apply the selected theme CSS
-if st.session_state.theme == "Light":
+if st.session_state.theme == "Dark":
     st.markdown(light_theme_css, unsafe_allow_html=True)
 else:
     st.markdown(dark_theme_css, unsafe_allow_html=True)
@@ -123,7 +123,7 @@ filtered_stream_channels = filter_channels(stream_channels, search_query)
 
 # Initialize session state for selected channel and visible channel counts
 if 'selected_channel' not in st.session_state:
-    st.session_state.selected_channel = filtered_main_channels[0] if filtered_main_channels else None
+    st.session_state.selected_channel = None
     st.session_state.selected_channel_index = 0
 
 # Initialize session state for displayed channels if not already set
@@ -134,44 +134,14 @@ if 'live_channel_display_limit' not in st.session_state:
 if 'stream_channel_display_limit' not in st.session_state:
     st.session_state.stream_channel_display_limit = 10
 
-# Function to handle channel change
-def change_channel(direction, channels):
-    if not channels:
-        return
-    current_index = st.session_state.selected_channel_index
-    new_index = (current_index + (1 if direction == "next" else -1)) % len(channels)
-    st.session_state.selected_channel = channels[new_index]
-    st.session_state.selected_channel_index = new_index
-
-# Display the selected channel
-st.markdown("<div class='header'>🎥 Now Playing</div>", unsafe_allow_html=True)
-if st.session_state.selected_channel:
-    st.subheader(f"{st.session_state.selected_channel['name']}")
-    
-    with st.spinner("Loading video..."):
-        st_player(st.session_state.selected_channel['url'], playing=is_playing, volume=volume / 100.0, playback_rate=playback_speed)
-
-    # Navigation buttons
-    col1, col2, col3 = st.columns([1, 2, 1])
-    with col1:
-        if st.button("Previous Channel"):
-            change_channel("prev", filtered_main_channels)
-    with col3:
-        if st.button("Next Channel"):
-            change_channel("next", filtered_main_channels)
-else:
-    st.warning("No channel selected.")
-
-# Tabbed interface for Main, Live, and Stream sections
-tabs = st.tabs(["Main Channels", "Live Channels", "Stream Channels"])
-
-# Function to display a limited list of channels with "Load More" button
+# Simplified display_channel_list function with one-click selection
 def display_channel_list(channels, section_key, display_limit_key):
     display_limit = st.session_state[display_limit_key]
     
     if channels:
         # Display only up to the current limit of channels
         for i, channel in enumerate(channels[:display_limit]):
+            # Clicking a channel button sets it as the selected channel directly
             if st.button(channel['name'], key=f"{section_key}_channel_{i}"):
                 st.session_state.selected_channel = channel
                 st.session_state.selected_channel_index = i
@@ -182,6 +152,24 @@ def display_channel_list(channels, section_key, display_limit_key):
                 st.session_state[display_limit_key] += 10  # Increment display limit by 10
     else:
         st.warning(f"No channels available in {section_key.capitalize()} Channels.")
+
+# Display the selected channel
+st.markdown("<div class='header'>🎥 Now Playing</div>", unsafe_allow_html=True)
+if st.session_state.selected_channel:
+    st.subheader(f"{st.session_state.selected_channel['name']}")
+    
+    with st.spinner("Loading video..."):
+        st_player(
+            st.session_state.selected_channel['url'],
+            playing=is_playing,
+            volume=volume / 100.0,
+            playback_rate=playback_speed
+        )
+else:
+    st.warning("No channel selected.")
+
+# Tabbed interface for Main, Live, and Stream sections
+tabs = st.tabs(["Main Channels", "Live Channels", "Stream Channels"])
 
 # Main Channels Tab
 with tabs[0]:
